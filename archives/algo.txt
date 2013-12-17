@@ -1,0 +1,24 @@
+pour chaque fichier swipe output
+	récupérer query description
+		pour chaque match
+			si evalue ou length > seuil
+				récuérer nomseqdb (>gnl|BL_ORD_ID|10319 AF164130.1.1775_U|Eukaryota|Alveolata|Ciliophora|Spirotric
+					hea-Oligotrichea|Spirotrichea-Oligotrichea_X|Stichotrichia|Uroleptus
+						|Uroleptus+gallina)
+							récupérer length, score , expect, identities, gaps
+							nomseqdb++
+	globalseqdb	= 1/nomseqdb
+	
+	liste de tous les global seq
+	
+matrice de tous les fichiers :
+
+Echantillon(bdm38)		nom seq fasta (query description) 	nomseqdb
+
+matrice compte
+
+Echantillon 	nomseqdb (splité par |)		compte
+
+matrice globale (sur tous les échantillons) au niveau taxonomique choisi
+					
+	
